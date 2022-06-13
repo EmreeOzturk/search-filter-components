@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+
+li {
+    list-style: none;
+    margin-bottom: .6rem;
+}
+li:last-child{
+    margin-bottom: 0;
+}
+
+h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: rgb(216, 216, 216);
+
+}
+
+body {
+    background-color: #47484d;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.component-search form {
+    background-color: #42434a;
+    padding: 2rem;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.component-search form input {
+    background-color: #303137;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    color: #5e5f66;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 100%;
+}
+
+.component-search i {
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #5e5f66;
+}
+
+.component-search form input::placeholder {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #5e5f66;
+}
+.search-container {
+    padding: 1.1rem 1.3rem;
+    background-color: #303137;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+}
+.component-search ul li:hover a{
+    color: rgb(106, 121, 223);
+}
+.component-search ul li:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.active a{
+    color: rgb(106, 121, 223);
+}
